@@ -1,0 +1,37 @@
+{
+  "name": "createpost-app",
+  "version": "1.0.0",
+  "description": "hey dude",
+  "main": "db.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mongodb/node-mongodb-native.git"
+  },
+"scripts": {
+  "start": "node db.js",
+  "dev": "nodemon db.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "overrides": {
+    "semver": "7.5.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.0",
+    "md5": "^2.3.0",
+    "mongodb": "^5.6.0",
+    "mongoose": "^9.6.0",
+    "multer": "^2.1.1",
+    "sanitize-html": "^2.11.0",
+    "socket.io": "^4.7.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
