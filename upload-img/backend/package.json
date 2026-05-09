@@ -8,6 +8,7 @@
     "url": "git+ssh://git@github.com/mongodb/node-mongodb-native.git"
   },
 "scripts": {
+ "install": "npm install --legacy-peer-deps",
   "start": "node db.js",
   "dev": "nodemon db.js"
 },
